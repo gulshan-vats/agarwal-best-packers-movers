@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" width="64" height="64">
+  <rect width="64" height="64" rx="16" fill="#0f2744"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#ea580c" stroke-width="2.5" stroke-opacity="0.5"/>
+  <!-- Truck body -->
+  <path d="M14 20H38C39.1 20 40 20.9 40 22V42H14V20Z" fill="#ea580c"/>
+  <line x1="26" y1="20" x2="26" y2="42" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- Cab -->
+  <path d="M40 27H47C48.1 27 49 27.7 49.3 28.7L51.5 35.5C51.8 36.3 52 37.1 52 38V42H40V27Z" fill="#38bdf8"/>
+  <path d="M42 29.5H46L48 35H42V29.5Z" fill="#ffffff" fill-opacity="0.9"/>
+  <!-- Wheels -->
+  <circle cx="22" cy="43" r="5.5" fill="#0f2744" stroke="#ea580c" stroke-width="2"/>
+  <circle cx="22" cy="43" r="2" fill="#ffffff"/>
+  <circle cx="45" cy="43" r="5.5" fill="#0f2744" stroke="#ea580c" stroke-width="2"/>
+  <circle cx="45" cy="43" r="2" fill="#ffffff"/>
+  <!-- Fast lines -->
+  <path d="M8 25H12" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M6 31H10" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

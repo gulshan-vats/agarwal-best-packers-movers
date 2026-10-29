@@ -1,0 +1,20 @@
+{
+  "name": "agarwal-best-packers-movers",
+  "version": "1.0.0",
+  "description": "Production-ready static website and enquiry API for Agarwal Best Packers and Movers Hyderabad",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node scripts/verify-site.js",
+    "verify": "node scripts/verify-site.js && node scripts/verify-css.js"
+  },
+  "keywords": [
+    "packers and movers hyderabad",
+    "house shifting manikonda",
+    "bike transport hyderabad",
+    "car transport hyderabad",
+    "office shifting hyderabad"
+  ],
+  "author": "Agarwal Best Packers and Movers",
+  "license": "ISC"
+}

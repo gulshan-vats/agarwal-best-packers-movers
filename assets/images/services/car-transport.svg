@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" width="120" height="120">
+  <rect width="120" height="120" rx="24" fill="#eff6ff"/>
+  <circle cx="60" cy="60" r="42" fill="#dbeafe"/>
+  <!-- Auto carrier truck bed outline -->
+  <path d="M20 78H96" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Car silhouette -->
+  <path d="M36 60L46 44H74L84 60H94C96.2 60 98 61.8 98 64V73C98 74.1 97.1 75 96 75H24C22.9 75 22 74.1 22 73V64C22 61.8 23.8 60 26 60H36Z" fill="#0f2744"/>
+  <!-- Car windows -->
+  <path d="M48 48L41 58H58V48H48Z" fill="#38bdf8"/>
+  <path d="M62 48V58H79L72 48H62Z" fill="#38bdf8"/>
+  <!-- Wheels -->
+  <circle cx="38" cy="75" r="9" fill="#1e293b"/>
+  <circle cx="38" cy="75" r="4.5" fill="#ea580c"/>
+  <circle cx="82" cy="75" r="9" fill="#1e293b"/>
+  <circle cx="82" cy="75" r="4.5" fill="#ea580c"/>
+  <!-- Headlight -->
+  <path d="M96 66L99 67V70L96 70V66Z" fill="#facc15"/>
+</svg>

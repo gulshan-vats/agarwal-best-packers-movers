@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none" width="320" height="64" role="img" aria-label="Agarwal Best Packers and Movers Logo">
+  <defs>
+    <linearGradient id="truckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="cabGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2744"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Truck Icon Badge -->
+  <g transform="translate(4, 4)">
+    <!-- Shield / Badge Backing -->
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#0f2744"/>
+    <rect x="2" y="2" width="52" height="52" rx="12" stroke="#ea580c" stroke-width="2" stroke-opacity="0.3"/>
+    
+    <!-- Moving Speed Lines -->
+    <path d="M6 22H14" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M4 28H11" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M7 34H13" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Truck Cargo Body -->
+    <path d="M16 18H36C37.1 18 38 18.9 38 20V38H16V18Z" fill="url(#truckGrad)"/>
+    <!-- Cargo Box Detail -->
+    <line x1="26" y1="18" x2="26" y2="38" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.35"/>
+    <path d="M21 24L31 32" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.25"/>
+
+    <!-- Truck Cab -->
+    <path d="M38 25H44.5C45.6 25 46.5 25.7 46.8 26.8L49 33.5C49.2 34 49.3 34.5 49.3 35V38H38V25Z" fill="#38bdf8"/>
+    <!-- Cab Window -->
+    <path d="M40 27.5H43.8L45.8 32.5H40V27.5Z" fill="#ffffff" fill-opacity="0.85"/>
+
+    <!-- Wheels -->
+    <!-- Rear Wheel -->
+    <circle cx="23" cy="38" r="5" fill="#0f2744"/>
+    <circle cx="23" cy="38" r="2.5" fill="#ea580c"/>
+    <circle cx="23" cy="38" r="1" fill="#ffffff"/>
+    
+    <!-- Front Wheel -->
+    <circle cx="43" cy="38" r="5" fill="#0f2744"/>
+    <circle cx="43" cy="38" r="2.5" fill="#ea580c"/>
+    <circle cx="43" cy="38" r="1" fill="#ffffff"/>
+
+    <!-- Headlight beam -->
+    <path d="M49 36L53 36.5L49 37.5V36Z" fill="#facc15"/>
+  </g>
+
+  <!-- Typography Wordmark -->
+  <g transform="translate(68, 12)">
+    <!-- Brand Primary -->
+    <text x="0" y="24" font-family="'Bricolage Grotesque', system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" fill="#0f2744" letter-spacing="-0.4px">
+      Agarwal <tspan fill="#ea580c">Best</tspan>
+    </text>
+    
+    <!-- Brand Subtitle / Category -->
+    <text x="1" y="41" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#475569" letter-spacing="2.2px">
+      PACKERS &amp; MOVERS
+    </text>
+
+    <!-- Location Accent -->
+    <rect x="156" y="32" width="58" height="13" rx="3" fill="#e2e8f0"/>
+    <text x="160" y="41.5" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#0f2744" letter-spacing="0.5px">
+      HYDERABAD
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" width="120" height="120">
+  <rect width="120" height="120" rx="24" fill="#eff6ff"/>
+  <circle cx="60" cy="60" r="42" fill="#dbeafe"/>
+  <!-- Security Shield -->
+  <path d="M60 28L86 38V58C86 74 75 88 60 93C45 88 34 74 34 58V38L60 28Z" fill="#0f2744"/>
+  <!-- Inner Shield Glow -->
+  <path d="M60 34L80 42V58C80 70 71 82 60 86C49 82 40 70 40 58V42L60 34Z" fill="#1e3a5f"/>
+  <!-- Checkmark -->
+  <path d="M50 60L57 67L71 52" stroke="#ea580c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

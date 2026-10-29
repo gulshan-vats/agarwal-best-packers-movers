@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none" width="600" height="450" role="img" aria-label="Professional packing and relocation in Hyderabad">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="truckBodyGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="cabGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2744"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  
+  <!-- Road -->
+  <path d="M0 370C180 370 420 370 600 370" stroke="#cbd5e1" stroke-width="6"/>
+  <path d="M50 370H110M170 370H230M290 370H350M410 370H470M530 370H590" stroke="#ffffff" stroke-width="3" stroke-dasharray="20 15"/>
+
+  <!-- City Skyline subtle silhouette in background -->
+  <path d="M60 370V260H95V240H135V270H160V370H210V220H255V370H330V290H380V370" fill="#93c5fd" fill-opacity="0.25"/>
+
+  <!-- Large Moving Truck -->
+  <g id="truck" transform="translate(130, 160)">
+    <!-- Container Body -->
+    <rect x="0" y="40" width="230" height="135" rx="6" fill="url(#truckBodyGrad)"/>
+    <!-- Stripes on Container -->
+    <rect x="15" y="75" width="200" height="6" fill="#ffffff" fill-opacity="0.3"/>
+    <text x="30" y="115" font-family="'Bricolage Grotesque', sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="1">AGARWAL BEST</text>
+    <text x="30" y="135" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#ffedd5" letter-spacing="2">PACKERS &amp; MOVERS</text>
+    
+    <!-- Truck Cab -->
+    <path d="M230 85H285C296 85 306 94 309 105L322 145C324 150 325 155 325 160V175H230V85Z" fill="url(#cabGrad2)"/>
+    <!-- Windshield -->
+    <path d="M245 95H278L294 135H245V95Z" fill="#38bdf8"/>
+    <!-- Driver silhouette -->
+    <circle cx="265" cy="118" r="8" fill="#0f2744"/>
+
+    <!-- Headlight -->
+    <path d="M322 152L338 150L348 165L323 162Z" fill="#fef08a" opacity="0.8"/>
+    <circle cx="323" cy="157" r="4" fill="#facc15"/>
+
+    <!-- Wheels -->
+    <!-- Rear Wheels -->
+    <circle cx="55" cy="175" r="22" fill="#0f2744"/>
+    <circle cx="55" cy="175" r="11" fill="#64748b"/>
+    <circle cx="55" cy="175" r="4" fill="#f8fafc"/>
+
+    <circle cx="110" cy="175" r="22" fill="#0f2744"/>
+    <circle cx="110" cy="175" r="11" fill="#64748b"/>
+    <circle cx="110" cy="175" r="4" fill="#f8fafc"/>
+
+    <!-- Front Wheel -->
+    <circle cx="280" cy="175" r="22" fill="#0f2744"/>
+    <circle cx="280" cy="175" r="11" fill="#64748b"/>
+    <circle cx="280" cy="175" r="4" fill="#f8fafc"/>
+  </g>
+
+  <!-- Moving Boxes Stacked -->
+  <g transform="translate(60, 275)">
+    <!-- Box 1 -->
+    <rect x="0" y="30" width="55" height="55" rx="3" fill="#d97706"/>
+    <path d="M0 45H55M27.5 30V85" stroke="#b45309" stroke-width="2"/>
+    <rect x="18" y="55" width="20" height="10" rx="1" fill="#ffffff" fill-opacity="0.8"/>
+    <!-- Box 2 (top) -->
+    <rect x="8" y="-12" width="40" height="42" rx="3" fill="#f59e0b"/>
+    <path d="M8 0H48M28 -12V30" stroke="#d97706" stroke-width="2"/>
+    <path d="M22 6L28 12L34 6" stroke="#0f2744" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Trust Badges -->
+  <g transform="translate(420, 50)">
+    <rect x="0" y="0" width="150" height="50" rx="25" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(15, 39, 68, 0.12))"/>
+    <circle cx="25" cy="25" r="15" fill="#dcfce7"/>
+    <path d="M19 25L23 29L31 21" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="23" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0f2744">Verified Team</text>
+    <text x="50" y="36" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Hyderabad &amp; All-India</text>
+  </g>
+
+  <g transform="translate(40, 60)">
+    <rect x="0" y="0" width="160" height="50" rx="25" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(15, 39, 68, 0.12))"/>
+    <circle cx="25" cy="25" r="15" fill="#ffedd5"/>
+    <path d="M25 15L27 21H33L28 25L30 31L25 27L20 31L22 25L17 21H23L25 15Z" fill="#ea580c"/>
+    <text x="50" y="23" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0f2744">Safe Handling</text>
+    <text x="50" y="36" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Multi-Layer Packaging</text>
+  </g>
+</svg>
