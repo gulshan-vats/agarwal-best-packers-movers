@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Helper for Mailto fallback
   const getMailtoFallback = (formData) => {
-    const toEmail = window.SITE_CONFIG ? window.SITE_CONFIG.email : 'info@agarwalbestpackersmovers.in';
+    const toEmail = 'gulshankumar2842@gmail.com';
     const subject = encodeURIComponent(`Moving Enquiry: ${formData.service || 'Relocation'} - ${formData.name}`);
     const body = encodeURIComponent(
       `Hello Agarwal Best Packers Team,\n\nName: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nService: ${formData.service}\nDetails: ${formData.message}`

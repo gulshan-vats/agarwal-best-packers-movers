@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const getMailtoLink = (p) => {
-    const toEmail = window.SITE_CONFIG ? window.SITE_CONFIG.email : 'info@agarwalbestpackersmovers.in';
+    const toEmail = 'gulshankumar2842@gmail.com';
     const subject = encodeURIComponent(`Moving Quote Request: ${p.service} - ${p.name}`);
     const body = encodeURIComponent(
       `Customer Name: ${p.name}\nPhone: ${p.phone}\nEmail: ${p.email}\nService: ${p.service}\n\nDetails:\n${p.message}`
